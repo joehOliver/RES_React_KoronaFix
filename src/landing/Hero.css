@@ -1,0 +1,101 @@
+:root {
+  --color-yellow: hsl(56, 98%, 49%);
+  /* #f2e202 */
+  --color-yellow-dark: hsl(56, 84%, 28%);
+  /* 837b0b */
+  --color-blue: hsl(228, 95%, 22%);
+  /* #03186d */
+  --color-red: hsl(1, 79%, 46%);
+  /* #d51c18 */
+}
+
+.btn-cta {
+  margin-right: 0.8rem;
+  padding: 1.4rem 1.8rem;
+}
+
+.cta-primary {
+  color: black;
+}
+
+.cta-secondary{
+  border: 1px solid #f2e202;
+}
+
+.cta-group {
+}
+
+h1 {
+ margin: 0;
+ font-weight: bold;
+}
+
+.hero-body {
+  width: 90%;
+}
+
+.hero-headlines {
+  text-align: left;
+}
+
+.hero-wrapper {
+  height: 100vh;
+  min-height: 540px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url("../images/bckd-roundball-sil-crop.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.main-text {
+  font-weight: 700;
+}
+
+.mdc-layout-grid {
+  width: 1142px;
+  display:block;
+}
+
+.mockup {
+  height: 420px;
+  width: auto;
+}
+
+.page-margin {
+  margin: 0 7rem;
+}
+
+@media (max-width: 991.98px) {
+  .main-text, .hero-body {
+    text-align: center;
+    width: 100%;
+  }
+  .cta-group, .btn-cta {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .main-text, .hero-body {
+    text-align: center;
+    width: 100%;
+  }
+  .cta-group, .btn-cta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
