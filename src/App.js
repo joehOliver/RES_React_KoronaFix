@@ -11,9 +11,11 @@ import Landing from './landing/Landing.js';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-    </div>
+    <Router>
+      <div className="App">
+        <Landing />
+      </div>
+    </Router>
   );
 }
 
