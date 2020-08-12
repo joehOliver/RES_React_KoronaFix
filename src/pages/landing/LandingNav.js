@@ -38,7 +38,7 @@ const LandingNav = props => {
           <img className="img-header seal" src={Seal} alt="City of Koronadal Service Portal" width="240"/>
           <img className="img-header brand" src={Brand} alt="City of Koronadal Service Portal" width="112"/>
         </Navbar.Brand>
-        <Tooltip content={toggle ? 'Close' : 'Menu'} align="bottom">
+        <Tooltip content={toggle ? 'Close' : 'Menu'} align="bottom" enterDelay={400}>
           <Navbar.Toggle as="div" aria-controls="nav-collapse-section" style={{border: 'none', padding: '0'}}>
             <IconButton icon={toggle ? 'close' : 'menu'} label={toggle ? 'Close' : 'Menu'} onClick={()=>isToggled(!toggle)} style={{color:'white', backgroundColor:'inherit'}}/>
           </Navbar.Toggle>
