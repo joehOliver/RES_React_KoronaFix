@@ -10,8 +10,8 @@ import '@rmwc/icon/icon.css';
 import '@material/ripple/dist/mdc.ripple.css';
 import '@rmwc/tooltip/tooltip.css';
 import './LandingNav.css';
-import Seal from '../images/logo-seal-final.svg';
-import Brand from '../images/logo-site-2.png';
+import Seal from '../../images/logo-seal-final.svg';
+import Brand from '../../images/logo-site-2.png';
 
 const LandingNav = props => {
   const [fill, fillOnScroll] = useState(false);

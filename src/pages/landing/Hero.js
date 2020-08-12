@@ -15,7 +15,7 @@ import '@rmwc/icon/icon.css';
 import '@material/ripple/dist/mdc.ripple.css';
 import '@material/typography/dist/mdc.typography.css';
 import './Hero.css';
-import mockup from '../images/mockup-test-3.png';
+import mockup from '../../images/mockup-test-3.png';
 
 const Hero = props => (
   <section className="hero-wrapper">
