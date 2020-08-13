@@ -6,7 +6,7 @@ import About from './pages/landing/About';
 import FAQs from './pages/landing/FAQs';
 import ContactUs from './pages/landing/ContactUs';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Landing} />

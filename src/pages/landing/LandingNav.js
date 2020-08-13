@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Icon } from '@rmwc/icon';
 import { IconButton } from '@rmwc/icon-button';
 import { Tooltip } from '@rmwc/tooltip';
@@ -46,16 +47,16 @@ const LandingNav = props => {
         <Navbar.Collapse aria-controls="nav-collapse-section" className="justify-content-end">
           <Nav>
             <Nav.Item>
-              <Nav.Link href="#" className="py-4 px-lg-4">About</Nav.Link>
+              <Nav.Link as={Link} to="/About" className="py-4 px-lg-4">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="py-4 px-lg-4">FAQs</Nav.Link>
+              <Nav.Link as={Link} to="/FAQs" className="py-4 px-lg-4">FAQs</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="py-4 px-lg-4">Contact us</Nav.Link>
+              <Nav.Link as={Link} to="/Contact-Us" className="py-4 px-lg-4">Contact us</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="login py-4 px-lg-4">
+              <Nav.Link as={Link} to="/About" className="login py-4 px-lg-4">
                 <Icon icon="login" className="mr-2"/>Login account
               </Nav.Link>
             </Nav.Item>
