@@ -22,9 +22,6 @@
   border: 1px solid #f2e202;
 }
 
-.cta-group {
-}
-
 h1 {
  margin: 0;
  font-weight: bold;
@@ -41,7 +38,7 @@ h1 {
 .hero-wrapper {
   height: 100vh;
   min-height: 540px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url("../../images/bckd-roundball-sil-crop.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url("../../../images/bckd-roundball-sil-crop.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

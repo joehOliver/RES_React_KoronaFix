@@ -5,7 +5,7 @@ import Hero from './Hero.js';
 import LandingNav from './LandingNav.js';
 import '@material/theme/dist/mdc.theme.css';
 import '@rmwc/theme/theme.css';
-import './Landing.css';
+import './css/Landing.css';
 
 const URL_TEST = "http://localhost:4000/user";
 const API_TEST = Axios.create({

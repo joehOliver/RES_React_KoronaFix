@@ -14,7 +14,7 @@ import '@material/button/dist/mdc.button.css';
 import '@rmwc/icon/icon.css';
 import '@material/ripple/dist/mdc.ripple.css';
 import '@material/typography/dist/mdc.typography.css';
-import './Hero.css';
+import './css/Hero.css';
 import mockup from '../../images/mockup-test-3.png';
 
 const Hero = props => (
@@ -25,7 +25,7 @@ const Hero = props => (
           <Typography use="headline2" tag="h1" className="text-white main-text">
             Report problems and give feedback</Typography>
           <Typography use="body1" tag="p" className="text-white hero-body mt-3">
-            Give feedback and suggestions, and report infrastructure and maintenance issues in the city. Sign up to report issues and track your requests!
+            Give feedback and suggestions, and report infrastructure and maintenance issues in the city. Register now to report issues and track your requests!
           </Typography>
           <div className="cta-group mt-4 pt-2">
             <Button label="Register" raised className="btn-cta cta-primary"/>
